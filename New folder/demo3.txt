@@ -1,0 +1,2 @@
+
+for /f "tokens=1-4 delims=- " %d in ("%date%") do rename "Example1" %d%e%f.txt
